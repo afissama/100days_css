@@ -151,3 +151,52 @@ body > div {
    transform: translateY(0.2rem);
 }
 
+/* Shape 4 */
+.shape-4 {
+    background-color: #0b2429;
+}
+
+.shape-4 span:first-child {
+    width: 8rem;
+    height: 8rem;
+    background: #998235;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.shape-4 span:first-child::after,
+.shape-4 span:first-child::before {
+    content: '';
+    width: 4rem;
+    height: 4rem;
+    background: #998235;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.shape-4 span:first-child::after {
+    left: -0.8rem;
+}
+
+.shape-4 span:first-child::before {
+    right: -0.8rem;
+}
+
+.shape-4 span:nth-child(2) {
+    width: 7rem;
+    height: 7rem;
+    background: #f3ac3c;
+    position: absolute;
+    border-radius: 50%;
+    border: 0.8rem solid #191919 ;
+}
+
+.shape-4 span:nth-child(3) {
+    width: 2rem;
+    height: 2rem;
+    background: #191919;
+    position: absolute;
+    border-radius: 50%;
+}
