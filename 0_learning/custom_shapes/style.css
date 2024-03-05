@@ -246,3 +246,36 @@ body > div {
 .shape-5 div span:nth-child(4) {
     width: 6.8rem;
 }
+
+/* Shape 6 */
+
+.shape-6 {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b140c;
+}
+
+.shape-6 span:nth-child(2) {
+    width: 8rem;
+    height: 8rem;
+    background: #E38031;
+    border-radius: 6rem 6rem 2rem 2rem;
+    z-index: 3;
+}
+
+.shape-6 span:nth-child(1) {
+    width: 3rem;
+    height: 2.5rem;
+    background: #F2AA4A;
+    border-radius: 6rem 6rem 0rem 0rem;
+    transform: translateY(0.5rem);
+}
+
+.shape-6 span:nth-child(3) {
+    width: 3rem;
+    height: 2.5rem;
+    background: #7D4727;
+    border-radius: 0rem 0rem 6rem 6rem ;
+}
+
+/* Shape- 7 */
