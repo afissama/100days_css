@@ -411,3 +411,40 @@ body > div {
     z-index: 20;
     bottom: .5rem;
 }
+
+/* Shape#9 */
+
+.shape-9 {
+    background: #29345D;
+}
+
+.shape-9 span {
+    width: 10rem;
+    height: 10rem;
+    background: #FEF1C8;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #FE5E5B;
+}
+
+.shape-9 span::before {
+    content: "";
+    width: 4rem;
+    height: 4rem;
+    background: #FE5E5B;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: -1.5rem;
+}
+
+.shape-9 span::after {
+    content: "";
+    width: 6rem;
+    height: 6rem;
+    background: #FE5E5B;
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: -2rem;
+    right: 0;
+}
