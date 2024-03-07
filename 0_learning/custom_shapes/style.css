@@ -503,3 +503,63 @@ body > div {
     margin-top: 15px;
 }
 
+/* shape 11 */
+
+.shape-11 {
+    background: #242E52;
+}
+
+.shape-11 div:nth-child(2) {
+    width: 6rem;
+    height: 4rem;
+    background: #C3B99A;
+    border-radius: 0 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.shape-11 div:nth-child(2) span {
+    background: #C34745;
+}
+
+.shape-11 div:nth-child(2) span:nth-child(1),
+.shape-11 div:nth-child(2) span:nth-child(2) {
+    width: 1.5rem;
+    height: .25rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+.shape-11 div:nth-child(2) span:nth-child(3) {
+    width: 1.2rem;
+    height: 1.2rem;
+    /* margin-top: 1rem; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    margin: 0 .7rem .7rem 0;
+}
+
+.shape-11 div:nth-child(1),
+.shape-11 div:nth-child(3) 
+{
+    width: 2.5rem;
+    height: 2rem;
+    border: .3rem solid #C3B99A;
+    transform: translateY(-1rem);
+    z-index: 0;
+}
+
+.shape-11 div:nth-child(3) 
+{
+    border-radius: 0 1rem 1rem 0;
+    border-left: transparent;
+}
+
+.shape-11 div:nth-child(1) 
+{
+    border-radius: 1rem 0 0 1rem;
+    border-right: transparent;
+}
