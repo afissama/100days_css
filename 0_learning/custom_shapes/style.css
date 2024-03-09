@@ -686,3 +686,61 @@ body > div {
   height: 0.2rem;
   background: #153433;
 }
+
+/* Shape 14 */
+
+.shape-14 {
+  background: #151516;
+}
+
+.shape-14 div {
+  width: 6rem;
+  height: 8rem;
+  background: #CB8F42;
+  border-radius: 3rem 3rem .5rem .5rem;
+  /* display: flex; */
+  position: relative;
+  overflow: hidden;
+}
+
+.shape-14 div span:nth-child(1) {
+  width: 5rem;
+  height: 5rem;
+  background: #AA6025;
+  border-radius: 3rem;
+  position: absolute;
+  bottom: -1.5rem;
+  left: -1.5rem;
+}
+
+.shape-14 div span:nth-child(1) {
+  width: 5rem;
+  height: 5rem;
+  background: #AA6025;
+  border-radius: 3rem;
+  position: absolute;
+  bottom: -1.5rem;
+  left: -1.5rem;
+  z-index: 1;
+}
+
+
+.shape-14 div span:nth-child(2) {
+  width: 2rem;
+  height: 2rem;
+  background: #C4BF76;
+  border-radius: 3rem;
+  position: absolute;
+  top: 3.5rem;
+  left: 1.5rem;
+}
+.shape-14 div span:nth-child(3) {
+  width: 6rem;
+  height: 6rem;
+  background: #60361C;
+  border-radius: 3rem;
+  position: absolute;
+  bottom: -2rem;
+  right: -1.5rem;
+  z-index: 2;
+}
