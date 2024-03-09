@@ -744,3 +744,49 @@ body > div {
   right: -1.5rem;
   z-index: 2;
 }
+
+/* shape- 15 */
+
+.shape-15 {
+  background: #153333;
+  overflow: hidden;
+  position: relative;
+}
+
+.shape-15 span:nth-child(1) {
+  width: 7rem;
+  height: 8rem;
+  /* background: #191919; */
+  position: absolute;
+  top: -1rem;
+  border: .75rem solid #B9863C ;
+}
+
+.shape-15 span:nth-child(2) {
+  width: 4rem;
+  height: 6.5rem;
+  position: absolute;
+  top: -1rem;
+  border: .75rem solid #776331 ;
+}
+
+.shape-15 span:nth-child(1)::before {
+  content: "";
+  width: 0.75rem;
+  height: 50rem;
+  background: #B9863C;
+  position: absolute;
+  right: calc(50% - 0.4rem);
+  z-index: 1;
+}
+
+.shape-15 span:nth-child(2)::before {
+  content: "";
+  width: 7rem;
+  height: 0.75rem;
+  position: absolute;
+  background: #776331;
+  right: calc(50% - 3.5rem);
+  top: 8rem;
+  z-index: 2;
+}
